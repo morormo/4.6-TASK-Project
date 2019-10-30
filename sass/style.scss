@@ -167,3 +167,33 @@ header {
 		}
 	}
 }
+
+/* Footer */
+.page-footer {
+ 
+    ul {
+        list-style: none;
+        text-align: center;
+        
+        li {
+            font-size: 0;
+            display: inline;
+            margin: 0;
+            a {
+                color: white; 
+                i {
+                    font-size: 20px;
+                    background: black;
+                    color: white;
+                    border-radius: 50%;
+                    width: 35px;
+                    height: 35px;
+                    line-height: 35px;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+            }
+            
+        }
+    }
+}
