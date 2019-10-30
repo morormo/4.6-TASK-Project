@@ -124,4 +124,41 @@ header .box .innerbox button {
 .services .container .row .col .box .text {
   text-align: center;
 }
+
+/* Portfolio */
+.portfolio {
+  background-color: #f7f7f7;
+}
+
+.portfolio .container .row .portf {
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+.portfolio .container .row .portf .box-image {
+  height: 80%;
+}
+
+.portfolio .container .row .portf .box-image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio .container .row .portf .box-description {
+  text-align: center;
+  height: 20%;
+  background: white;
+}
+
+.portfolio .container .row .portf .box-description h3 {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.portfolio .container .row .portf .box-description p {
+  margin-top: 0;
+  font-size: 14px;
+}
 /*# sourceMappingURL=style.css.map */
