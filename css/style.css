@@ -14,6 +14,15 @@ a {
   text-decoration: none;
 }
 
+section {
+  padding: 48px 0;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 /* HEADER */
 header {
   height: 70vh;
@@ -95,5 +104,24 @@ header .box .innerbox button {
   border: 0;
   font-weight: bold;
   width: 175px;
+}
+
+/* SERVICES */
+.services .container .row .col .box .icon {
+  text-align: center;
+}
+
+.services .container .row .col .box .icon i {
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border: 2px solid #F2D432;
+  color: #F2D432;
+  border-radius: 50%;
+}
+
+.services .container .row .col .box .text {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
